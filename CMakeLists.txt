@@ -18,7 +18,7 @@ if (NOT TARGET libzmq)
   endif()
 endif()
 
-set (${PROJECT_NAME}_VERSION ${ZeroMQ_VERSION})
+set (${PROJECT_NAME}_VERSION 4.5.0)
 message(STATUS "cppzmq v${${PROJECT_NAME}_VERSION}")
 
 set(CPPZMQ_HEADERS
